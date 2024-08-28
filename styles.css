@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+section#first, footer {
+    background-color: #1F2937;
+    width: 100%;
+}
+
+footer, nav > ul, section {
+    display: flex;
+}
+
+
