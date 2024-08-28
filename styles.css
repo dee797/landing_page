@@ -19,6 +19,7 @@ section#first, footer {
     background-color: #1F2937;
 }
 
-section#first > nav, section#first > div {
+section#first > nav, section#first > div, section#second > h2, section#second > div,
+section#third > div, section#fourth > div {
     width: 75%;
 }
