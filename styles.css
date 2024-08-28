@@ -1,8 +1,15 @@
 @charset "utf-8";
 
+html {
+    width:auto;
+}
+
+body, footer, section {
+    width: 100%;
+}
+
 section#first, footer {
     background-color: #1F2937;
-    width: 100%;
 }
 
 footer, nav > ul, section {
