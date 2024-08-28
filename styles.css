@@ -1,19 +1,24 @@
 @charset "utf-8";
 
-html {
-    width:auto;
+body {
+    height:100%;
+    margin: 0px;
 }
 
 body, footer, section {
     width: 100%;
 }
 
+footer, nav > ul, section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 section#first, footer {
     background-color: #1F2937;
 }
 
-footer, nav > ul, section {
-    display: flex;
+section#first > nav, section#first > div {
+    width: 75%;
 }
-
-
