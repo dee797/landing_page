@@ -3,23 +3,39 @@
 body {
     height:100%;
     margin: 0px;
+    font-family: HelveticaNowMTText, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Trebuchet MS, sans-serif;
 }
 
 body, footer, section {
     width: 100%;
 }
 
-footer, nav > ul, section {
-    display: flex;
-    flex-wrap: wrap;
+footer, section {
     justify-content: center;
 }
 
-section#first, footer {
+footer, nav > ul, section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#first, footer {
     background-color: #1F2937;
 }
 
-section#first > nav, section#first > div, section#second > h2, section#second > div,
-section#third > div, section#fourth > div {
+#first > nav, #first > div, #second > h2, #second > div,
+#third > div, #fourth > div {
     width: 75%;
+}
+
+#first > nav > ul {
+    padding: 0%;
+    list-style-type: none;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 60%;
+    font-weight: bold;
 }
