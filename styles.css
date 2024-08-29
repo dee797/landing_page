@@ -10,6 +10,9 @@ body, footer, section {
     width: 100%;
 }
 
+
+/* Major Elements Styles */
+
 footer, section {
     justify-content: center;
 }
@@ -28,6 +31,10 @@ footer, nav ul, section {
 #first, footer {
     background-color: #1F2937;
 }
+
+
+/* Top Navigation Bar Styles */
+
 
 #first nav ul {
     padding: 0%;
@@ -52,3 +59,26 @@ footer, nav ul, section {
     padding: 0px;
 }
 
+/* Hero Styles */ 
+
+.heroContainer {
+    display: flex;
+    padding: 50px 0px;
+}
+
+.heroContainer h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 100%;
+}
+
+.heroText {
+    width: 50%;
+}
+
+.placeholder1 {
+    width: 50%;
+    background-color: #c1c3c7;
+
+}
