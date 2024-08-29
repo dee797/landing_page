@@ -127,9 +127,3 @@ footer, nav > ul, section {
     display: flex;
 
 }
-
-#second div div .placeholder2 {
-    display: block;
-    height: 50px;
-    border: 3px #3882F6;
-}
