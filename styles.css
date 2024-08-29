@@ -66,19 +66,19 @@ footer, nav > ul, section {
 
 .heroContainer {
     display: flex;
-    padding: 100px 0px;
+    padding: 150px 0px;
 }
 
 .heroContainer h1 {
     font-size: 48px;
     font-weight: 900;
     margin: 0px;
-    width: 90%;
+    width: 50%;
 }
 
 .subtext1 {
     padding: 10px 0px;
-    width: 95%;
+    width: 75%;
 }
 
 .heroText, .placeholder1 {
@@ -113,7 +113,7 @@ footer, nav > ul, section {
 /* Second Section (#second) Styles*/
 
 #second {
-    padding: 25px 0px 100px;
+    padding: 25px 0px 150px;
 }
 
 #second h2 {
@@ -125,5 +125,10 @@ footer, nav > ul, section {
 
 #second > div, #second > div > div {
     display: flex;
+}
 
+#second .placeholder2 {
+    border: 3px #3882F6;
+    content: "";
+    height: 10%;
 }
