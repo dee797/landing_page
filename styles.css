@@ -60,7 +60,7 @@ footer, nav > ul, section {
     padding: 0px;
 }
 
-.heroContainer h1, #first > nav > ul > li#logo, .signUp {
+.heroContainer h1, #first > nav > ul > li#logo, .signUp, .call1 {
     color: #F9FAF8;
 }
 
@@ -93,7 +93,7 @@ footer, nav > ul, section {
 
 }
 
-.placeholder1, .subtext1, #first > nav > ul > li {
+.placeholder1, .subtext1, #first > nav > ul > li, .call2 {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -103,7 +103,7 @@ footer, nav > ul, section {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    padding: 7px 27px;
+    padding: 9px 45px;
     border: none;
     border-radius: 7px;
     cursor: pointer;
@@ -163,7 +163,7 @@ footer, nav > ul, section {
     background-color: #E5E7EB;
 }
 
-.quote, .quoteAuthor {
+.quote, .quoteAuthor, .blueContainer {
     box-sizing: border-box;
 }
 
@@ -180,4 +180,34 @@ footer, nav > ul, section {
     font-weight: bold;
     padding: 20px 5% 150px;
     font-size: 24px;
+}
+
+/* Fourth section (#fourth) Styles */
+
+.blueContainer {
+    display: flex;
+    margin: 125px 0px;
+    background-color: #3882F6;
+    padding: 60px 10%;
+    border-radius: 10px;
+}
+
+.call1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.callContainer {
+    width: 70%;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 30%;
+    justify-content: right;
+    align-items: end;
+}
+
+.buttonContainer > .signUp {
+    border: 2px solid #F9FAF8;
 }
