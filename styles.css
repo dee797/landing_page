@@ -93,7 +93,7 @@ footer, nav > ul, section {
 
 }
 
-.placeholder1, .subtext1, #first > nav > ul > li, .call2 {
+.placeholder1, .subtext1, #first > nav > ul > li, .call2, footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -210,4 +210,12 @@ footer, nav > ul, section {
 
 .buttonContainer > .signUp {
     border: 2px solid #F9FAF8;
+}
+
+
+/* Footer Styles */
+
+footer {
+    height: 100px;
+    align-items: center;
 }
