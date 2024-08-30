@@ -154,3 +154,30 @@ footer, nav > ul, section {
     text-align: justify;
     text-align-last: center;
 }
+
+
+/* Third section (#third) Styles */ 
+
+
+#third {
+    background-color: #E5E7EB;
+}
+
+.quote, .quoteAuthor {
+    box-sizing: border-box;
+}
+
+.quote {
+    padding: 150px 3% 0px;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteAuthor {
+    text-align:right;
+    font-weight: bold;
+    padding: 20px 5% 150px;
+    font-size: 24px;
+}
